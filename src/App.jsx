@@ -10,8 +10,6 @@ function App() {
     <div className="App">
       <h1>Buscador de GIFs</h1>
       <p>Encuentra GIFs divertidos, memes y reacciones escribiendo una palabra y buscándolos al instante.</p>
-
-      <h2>Gif Search</h2>
       <AddCategory setCategory={setCategory} />
       <DisplayGifs category={category} />
 
